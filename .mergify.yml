@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: vm4 head rename freshness update 240924
+    conditions:
+      - head = vm4-safe-head-rename-240924
+      - label = vm4-head-rename-go-240924
+    actions:
+      update: {}
